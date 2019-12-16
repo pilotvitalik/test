@@ -4,5 +4,6 @@ import ServicePage from './components/Wrapper/Page/ServicePage/ServicePage.vue'
 
 export default [
 {  path: '/', component: MainPage,},
-{  path: '/service/:id', component: ServicePage, props: true,}
+{  path: '/service/:id', component: ServicePage, props: true,},
+{  path: '/none/:id', redirect: '/service/:id'}
 ]

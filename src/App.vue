@@ -12,6 +12,9 @@ export default {
   components: {
     Wrapper,
   },
+  created() {
+    console.log(window.location);
+  },
 }
 </script>
 
